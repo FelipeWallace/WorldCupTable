@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo 2022 - Grupos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="module" src="./codigo.js"></script>
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav botaoNav">
+              <a class="nav-link" href="./index.html">GRUPOS</a>
+              <a class="nav-link" href="../jogos/index.html">JOGOS</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <h1 id="titulo">FASE DE GRUPOS</h1>
+    <div id="busca">
+        <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite aqui" />
+        <button type="button" onclick="buscaSelecao()">Buscar Seleção</button>
+        <button type="button" onclick="buscaGrupo()">Buscar Grupo</button>
+    </div>
+</body>
+</html>
